@@ -71,7 +71,7 @@ public class Game {
        this.Lock=(!this.Lock);
     }
 
-    public static byte[] reverse(byte[] in) {
+    private static byte[] reverse(byte[] in) {
         int begin = 0,count=0;
         int end = in.length - 1;
         byte temp;
