@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="LoginBtt" layoutX="52.0" layoutY="30.0" mnemonicParsing="false" text="Login" />
+      <TextField fx:id="UserNameField" layoutX="250.0" layoutY="30.0" promptText="UserName" />
+      <TextField fx:id="PasswordField" layoutX="250.0" layoutY="79.0" promptText="Password" />
+      <TextArea fx:id="CommunicationBoard" layoutX="250.0" layoutY="170.0" prefHeight="200.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>
